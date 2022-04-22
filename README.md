@@ -31,7 +31,7 @@
         <div class="header-text">
              <h1>đây là trang web cá nhân của huỳnh trung hậu</h1>
              <p>hãy liên hệ tôi để biết thêm thông tin</p>
-             <button>nhân vào để liên hệ</button>
+             <button>nhân vào liên hệ</button>
         </div>
 
     
