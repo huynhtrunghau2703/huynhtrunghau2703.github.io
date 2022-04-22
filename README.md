@@ -16,12 +16,9 @@
                     <p>Huỳnh trung<span> Hậu</span></p>
                     <ul>
                         <i class="fa-solid fa-circle-xmark"></i>
-                        <li><a href="">thông tin cá nhân</a></li>   
-                        <p>huỳnh trung hậu sinh ngày 27-03-2002</p>
-                        <li><a href="">thông tin nơi ở</a></li>
-                        <p>hiện đang sinh sông ở diên khánh khánh hòa</p>                          
-                        <li><a href="">thông tin liên hệ</a></li>        
-                        <p>email:huynhhau.0703349507@gmail.com</p>                                         
+                        <li><a href="">thông tin cá nhân</a></li>                        
+                        <li><a href="">thông tin nơi ở</a></li>                                                  
+                        <li><a href="">thông tin liên hệ</a></li>                                                 
                     </ul>
                     <i class="fas fa-bars"></i>
                 </div>
