@@ -17,21 +17,23 @@
                     <ul>
                         <i class="fa-solid fa-circle-xmark"></i>
                         <li><a href="">thông tin cá nhân</a></li>   
-                        <li><a href="">thông tin nơi ở</a></li>                          
-                        <li><a href="">thông tin liên hệ</a></li>                                                 
+                        <p>huỳnh trung hậu sinh ngày 27-03-2002</p>
+                        <li><a href="">thông tin nơi ở</a></li>
+                        <p>hiện đang sinh sông ở diên khánh khánh hòa</p>                          
+                        <li><a href="">thông tin liên hệ</a></li>        
+                        <p>email:huynhhau.0703349507@gmail.com</p>                                         
                     </ul>
                     <i class="fas fa-bars"></i>
-
                 </div>
             </div>
         </div>
-        <div class="navy-image">
+        <div class="a1-image">
 
         </div>
         <div class="header-text">
-             <h1>đây là trang web cá nhân của huỳnh trung hậu</h1>
+             <h1>đây là trang web cá nhân của tôi</h1>
              <p>hãy liên hệ tôi để biết thêm thông tin</p>
-             <button>nhân vào liên hệ</button>
+             <button>nhân vào liên hệ </button>
         </div>
 
     
@@ -44,6 +46,10 @@
             --main-text-font:'Roboto', sans-serif;
             --logo-text-font:'Roboto Mono', monospace;
             --main-color: #063970;
+        }
+        body {
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.WqNgq6Q5szSQM1nwCuE9EQHaFj&pid=Api&P=0&w=220&h=165);
+            background-size: cover;
         }
         * {
             margin: 0;
@@ -65,20 +71,20 @@
             flex-wrap: wrap;
         }
         header {
-            background-image: url("image/navy.jpg");
-            background-position: center;
+            background-image: url("");
+            ackground-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            width: 100vw;
+           /width: 100vw;
             height: 100vh;
         }
-        /*.navy-image {
+        .navy-image {
             position: absolute;
             content: "";
             width: 100%;
             height: 100%;
             background-color: blue;
-            opacity: 0.5;*/
+            opacity: 0.5;
         }
         .top {
             position: relative;
@@ -126,7 +132,7 @@
         }
         .header-top ul li a {
             font-family: var(--main-text-font);
-            color: rgba(231, 13, 13, 0.315);
+            color: #063970;
             font-weight: bold;
         }
         .header-top ul i {
@@ -149,8 +155,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            max-width: 700px;
-            min-width: 500px;
+            max-width: 1200px;
+            min-width: 668px;
             text-align: center;
         }
         .header-text h1 {
@@ -165,7 +171,7 @@
         }
         .header-text button {
             width: 150px;
-            height: 40px;
+            height: 60px;
             margin-top: 20px;
             background-color: transparent;
             border: 2px solid var(--main-color);
@@ -283,7 +289,7 @@ header {
 }
 .header-top ul li a {
     font-family: var(--main-text-font);
-    color: rgba(231, 13, 13, 0.315);
+    color: #063970;
     font-weight: bold;
 }
 .header-top ul i {
