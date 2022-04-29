@@ -17,7 +17,7 @@
                     <ul>
                         <i class="fa-solid fa-circle-xmark"></i>
                         <li><a href="index3.html">thông tin cá nhân</a></li>                         
-                        <li><a href="">thông tin nơi ở</a></li>                                   
+                        /*<li><a href="">thông tin nơi ở</a></li>*/                                   
                         <li><a href="index7.html">web học tập</a></li>                                                       
                     </ul>
                     <i class="fas fa-bars"></i>
