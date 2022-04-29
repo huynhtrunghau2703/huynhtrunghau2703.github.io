@@ -171,6 +171,7 @@
             .header-text p {
                 font-family: var(--main-text-font);
                 color: #063970;
+                
             }
             .header-text button {
                 width: 150px;
