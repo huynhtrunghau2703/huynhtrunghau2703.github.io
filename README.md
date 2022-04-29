@@ -29,9 +29,9 @@
     
             </div>
             <div class="header-text">
-              
+                <h1>chào bạn</h1>
                  <p>hãy liên hệ tôi để biết thêm thông tin</p>
-                 <button>nhấn vào liên hệ </button>
+                 
             </div>
             <div class="topnav">
                 <a class="active" href="index12.html">Trang chủ</a>
