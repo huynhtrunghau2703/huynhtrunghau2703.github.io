@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>học thiết kế web</title>
+    <link rel="stylesheet" href="style8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+<link rel="link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index7.html"><img src="https://tse1.explicit.bing.net/th?id=OIP.wNQh7OYh5JyqT8dgx0k5xgHaE8&pid=Api&P=0&w=262&h=174"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu></i>
+        </nav>
+        <div class="text-box">
+            <h1>học thiết kế web</h1>
+            <p>thiết kế web HTML, CSS, Javascript.</p>
+            <div class="hero-btn">Đặt câu hỏi</div>
+        </div>
+    </section>
+    
+    <!------Course----->
+    <section class="="Course>
+        <h1>học thiết kế web</h1>
+        <p>ngành thiết kế web đang là xu hướng của giới trẻ hiện nay </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati accusamus perspiciatis exercitationem eligendi id architecto at animi autem amet, ad aliquam laboriosam deserunt neque provident illum quibusdam magnam eos voluptate!
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate accusamus unde rerum blanditiis in repellat ea pariatur! Reiciendis nostrum voluptatem, nisi, blanditiis laboriosam iure sunt vero quisquam corrupti iste voluptates!</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="campus">
+        <h1>học thiết kế web</h1>
+    </section>
+    <script>
+        var nav-links = document.getlementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0"
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px"
+        }
+
+        
+    </script>
+    
+</body>
+</html>
+<header>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+} 
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: darkcyan;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #111;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-linksul li{
+        display: block;
+    }
+    .nav-links{
+        position: relative;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 20px 12px;
+    box-sizing: border-box;
+    transition: 3s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+    </style>
+</header>
