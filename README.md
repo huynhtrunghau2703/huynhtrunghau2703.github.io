@@ -52,7 +52,7 @@
                 --main-color: #063970;
             }
             body {
-                background-image: url(https://tse4.mm.bing.net/th?id=OIP.WqNgq6Q5szSQM1nwCuE9EQHaFj&pid=Api&P=0&w=220&h=165);
+                background-color: lightgreen;
                 background-size: cover;
             }
             * {
