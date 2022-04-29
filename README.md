@@ -28,7 +28,7 @@
     
             </div>
             <div class="header-text">
-                 <h1>đây là trang web cá nhân của tôi</h1>
+              
                  <p>hãy liên hệ tôi để biết thêm thông tin</p>
                  <button>nhấn vào liên hệ </button>
             </div>
