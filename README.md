@@ -14,6 +14,7 @@
                 <div class="container">
                     <div class="header-top row">
                         <p>Huỳnh Trung Hậu</p>
+                        <i class="fas fa-facebook-f"></i>
                         <ul>
                             <i class="fa-solid fa-circle-xmark"></i>
                             <li><a href="index3.html">thông tin cá nhân</a></li>                         
