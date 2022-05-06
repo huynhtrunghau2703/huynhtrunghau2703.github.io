@@ -14,6 +14,8 @@
                 <div class="container">
                     <div class="header-top row">
                         <p>Huỳnh Trung Hậu</p>
+                                                <img src="https://ngayhevang.vn/wp-content/uploads/2021/03/thap-tram-huong-nha-trang-5.jpg" alt="ngayhevang.vn" width="250" height="200">
+
                         <i class="fas fa-facebook-f"></i>
                         <ul>
                             <i class="fa-solid fa-circle-xmark"></i>
