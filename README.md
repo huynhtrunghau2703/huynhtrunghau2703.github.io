@@ -202,19 +202,23 @@
                 cursor: pointer;
                 margin-bottom: 150px;
             }
-          footer .container .noi-dung{
+.footer {
+                    background-color: #ccc;
+
+     .footer .container .noi-dung{
      margin-right: 30px;
  }
-footer  .container .noi-dung.about{
+ 
+.footer  .container .noi-dung.about{
      width:40%;
  }
- footer .container .noi-dung.about h2{
+ .footer .container .noi-dung.about h2{
      position: relative;
      color: #fff;
      font-weight: 500;
      margin-bottom: 15px;
  }
- footer .container .noi-dung.about h2:before{
+ .footer .container .noi-dung.about h2:before{
      content: '';
      position: absolute;
      bottom: -5px;
@@ -223,7 +227,7 @@ footer  .container .noi-dung.about{
      height: 2px;
      background: #f00;
  }
-footer .container .noi-dung.about p{
+.footer .container .noi-dung.about p{
      color: #999;
  }
  /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
@@ -365,17 +369,17 @@ footer .container .noi-dung.about p{
      padding: 8px 4px;
  }
  @media  (max-width: 768px){
-     footer{
+     .footer{
          padding: 40px;
               }
-     footer .container{
+    . footer .container{
          flex-direction: column;
      }
-     footer .container .noi-dung{
+     .footer .container .noi-dung{
          margin-right: 0;
          margin-bottom: 40px;
      }
-     footer .container, .noi-dung.about, .links, .contact{
+     .footer .container, .noi-dung.about, .links, .contact{
          width: 100%;
      }
  }
