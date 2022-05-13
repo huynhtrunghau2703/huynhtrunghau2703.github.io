@@ -35,7 +35,7 @@
                  
             </div>
             <div class="topnav">
-                <a class="active" href="index12.html">Trang chủ</a>
+                <a class="active" href="index.html">Trang chủ</a>
                 <a href="index7.html">website </a>
                 <a href="in">Liên hệ</a>
                 <input type="text" placeholder="Tìm kiếm..."/>
@@ -147,62 +147,7 @@
                 cursor: pointer;
                 margin-bottom: 150px;
             }
-            .header-top> i {
-                font-size: 32px;
-                color: var(--main-color);
-                cursor: pointer;
-            }
-            .header-top p {
-                font-family: var(--logo-text-font);  
-            }
-            .header-text {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                max-width: 1200px;
-                min-width: 668px;
-                text-align: center;
-            }
-            .header-text h1 {
-                font-family: var(--main-text-font);
-                color: #063970;
-                margin-bottom: 20px;
-                font-size: 32px;
-            }
-            .header-text p {
-                font-family: var(--main-text-font);
-                color: #063970;
-                
-            }
-            .header-text button {
-                width: 150px;
-                height: 60px;
-                margin-top: 20px;
-                background-color: transparent;
-                border: 2px solid var(--main-color);
-                color: #063970
-                cursor: pointer;
-                font-size: 20px;
-                transition: all 0.5s ease;
-            }
-            .header-text button:hover {
-                background-color: var(--main-color);
-            }
-            @media (max-width: 575px) {
-                .header-top ul {
-                    position: fixed;
-                    width: 200px;
-                    height: 100px;
-                    background-color: var(--main-color);
-                    right: 0;
-                    top: 0;
-                    flex-direction: column  ;
-                }
-                .header-top ul li {
-                    margin-bottom: 20px;
-                    margin-left: 50px;
-                }
-            }   </style>
+          
+              </style>
     </head>
     
