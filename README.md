@@ -346,24 +346,6 @@
     .header-text button:hover {
         background-color: var(--main-color);
     }
-    @media (max-width: 575px) {
-        .header-top ul {
-            position: fixed;
-            width: 200px;
-            height: 100px;
-            background-color: var(--main-color);
-            right: 0;
-            top: 0;
-            flex-direction: column  ;
-        }
-        .header-top ul li {
-            margin-bottom: 20px;
-            margin-left: 50px;
-        }
-    }  
-    * {box-sizing: border-box;}
- 
-}
-        </style>
+         </style>
     </head>
     
