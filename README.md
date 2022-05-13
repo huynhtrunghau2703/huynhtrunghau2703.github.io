@@ -35,12 +35,13 @@
                  
             </div>
             <div class="topnav">
-                <a class="active" href="index.html">Trang chủ</a>
+                <a class="index.html" href="index.html">Trang chủ</a>
                 <a href="index7.html">website </a>
                 <a href="in">Liên hệ</a>
                 <input type="text" placeholder="Tìm kiếm..."/>
               </div>
            
+               
         
         </header>
     </body>
