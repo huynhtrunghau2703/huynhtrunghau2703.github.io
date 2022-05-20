@@ -30,8 +30,8 @@
     
             </div>
             <div class="header-text">
-                <h1>chào bạn</h1>
-                 <p>hãy liên hệ tôi để biết thêm thông tin</p>
+                             <img src="https://baoxaydung.com.vn/stores/news_dataimages/vananh/052021/29/15/1046_image001.png" alt="https://baoxaydung.com.vn/thanh-co-dien-khanh-ve-dep-kien-truc-di-tich-lich-su-quoc-gia-306704.html" width="450" height="350">
+
                  
             </div>
             <div class="topnav">
