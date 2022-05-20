@@ -40,6 +40,8 @@
                 <a href="in">Liên hệ</a>
                 <input type="text" placeholder="Tìm kiếm..."/>
               </div>
+        </header>
+        
            <footer>
      <div class="container">
          <!--Bắt Đầu Nội Dung Giới Thiệu-->
@@ -97,7 +99,7 @@
  </footer>
                
         
-        </header>
+        
     </body>
     <head>
         <style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
