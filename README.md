@@ -203,7 +203,8 @@
                 margin-bottom: 150px;
             }
 .footer {
-                    background-color: #ccc;
+          background-color: burlywood;
+           
 
      .footer .container .noi-dung{
      margin-right: 30px;
