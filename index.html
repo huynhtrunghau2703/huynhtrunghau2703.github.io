@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+   
+
 <html lang="en">
     <head> 
     <meta charset="UTF-8">
@@ -8,6 +10,7 @@
     <script src="http://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="amonyus"></script>
     <link rel="stylesheet" href="style.css">
     <title>web cá nhân</title>
+    <html>
     </head>
     <body>
         <header>
@@ -44,40 +47,47 @@
                  
             </div>
            </header>
-        <!-- cuối -->
+     <!-- giữa -->
+  <div id="box">
+   <div class="box">
+     <h1>
+  HUỲNH TRUNG HẬU</h1>
+   </div>
+   </div>      
+    <main>
+       <!-- cuối -->
   <div id="footer">
-    <div class="box">
-        <div class="logo"> <h1 style="font-size: 20px;"> HUỲNH TRUNG HẬU </h1> </div>
-        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-        <li><a href=""><i class="fa fa-instagram"></i></a></li>
-        <li><a href=""><i class="fa fa-youtube"></i></a></li>
-    </div>
-    <div class="box">
-        <h3>Thông Tin</h3>
-        <ul class="quick-menu">
-            <div class="item">
-                <a href="huynhtrunghau2703.github.io">Trang chủ</a>
-            </div>
-            <div class="item">
-                <a href="">Giới Thiệu</a>
-            </div>
-            <div class="item">
-                <a href="">Liên hệ</a>
-            </div>
-        </ul>
-    </div>
-    <div class="box">
-        <h3>LIÊN HỆ</h3>
-        <form action="">
-            <input type="text" placeholder="Nhập gmail">
-            <button>thông ti liên hệ</button>
-        </form>
-    </div>
+   <div class="box">
+       <div class="logo"> <h1 style="font-size: 15px;">HUỲNH TRUNG HẬU </h1> </div>
+   </div>
+   <div class="box">
+       <h3>NỘI DUNG</h3>
+       <ul class="quick-menu">
+           <div class="item">
+               <a href="huynhtrunghau2703/huynhtrunghau2703.github.io">Trang chủ</a>
+           </div>
+           <div class="item">
+               <a href="https://www.facebook.com/hau.huynhtrung.2703/   ">Giới Thiệu</a>
+           </div>
+           <div class="item">
+               <a href="https://www.facebook.com/hau.huynhtrung.2703/">Liên hệ</a>
+           </div>
+       </ul>
+   </div>
+   <div class="box">
+       <h3>LIÊN HỆ</h3>
+       <form action="">
+         <address>Huỳnh Trung Hậu<br />
+            Email: <a href="mailto:hthau27@gmail.com">hthau27@gmail.com</a><br />
+            Địa chỉ: Xã suối hiệp huyện Diên Khánh Tỉnh Khánh hòa<br />
+            Điện thoại: (+84)167128874</address>
+       </form>
+   </div>
 </div>
 </div>
 <!-- cuối -->
-    </body>
+    </main>
+</html>
     <head>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -171,7 +181,7 @@
     }
     .header-top ul li a {
         font-family: var(--main-text-font);
-        color: #ffff;
+        color: #063970;
         font-weight: bold;
     }
     .header-top ul i {
@@ -215,11 +225,30 @@
         background-color: transparent;
         border: 2px solid var(--main-color);
         color: #063970
+        cursor: pointer;
+        font-size: 20px;
+        transition: all 0.5s ease;
     }
     .header-text button:hover {
         background-color: var(--main-color);
     }
-    
+    @media (max-width: 575px) {
+        .header-top ul {
+            position: fixed;
+            width: 200px;
+            height: 100px;
+            background-color: var(--main-color);
+            right: 0;
+            top: 0;
+            flex-direction: column  ;
+        }
+        .header-top ul li {
+            margin-bottom: 20px;
+            margin-left: 50px;
+        }
+    }  
+    * {box-sizing: border-box;}
+ 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -281,11 +310,10 @@ body {
     margin: 5px 2px;
     border-radius: 50%;
 }
-
-/* cuối */
-#footer {
+ /* cuối */
+ #footer {
       width: 100%;
-      background:rgba(0, 0, 0, 0.79);
+      background:#696969;
       height: 322px;
       margin-top:0px;
       padding-top:57px;
@@ -295,9 +323,9 @@ body {
   
   #footer .box {
       width: 250px;
-      color:#fff;
+      color: #fff;
   }
-
+  
   #footer .box .quick-menu {
       margin-top:40px;
   
@@ -332,9 +360,6 @@ body {
       margin-top:29px;
       color:#fff;
   } 
- 
-
         </style>
     </head>
     
-
