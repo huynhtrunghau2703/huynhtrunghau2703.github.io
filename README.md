@@ -19,12 +19,7 @@
                 <div class="container">
                     <div class="header-top row">
                         <p>Huỳnh Trung Hậu</p>
-                        <ul>
-                            
-                                <i class='fa fa-graduation-cap' style='color:#4448ca'></i>  
-                            
-                        </ul>
-                        <i class="fas fa-facebook-f"></i>
+                   
                         <ul>
                             <li><a href="index3.html">thông tin cá nhân</a></li>                                                       
                             <li><a href="index7.html">web học tập</a></li>                                                       
