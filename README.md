@@ -13,8 +13,7 @@
             <div class="top">
                 <div class="container">
                     <div class="header-top row">
-                        <p>Huỳnh Trung Hậu</p>
-                                                <img src="https://ngayhevang.vn/wp-content/uploads/2021/03/thap-tram-huong-nha-trang-5.jpg" alt="ngayhevang.vn" width="250" height="200">
+                        <p>Huỳnh Trung Hậu</p
 
                         <i class="fas fa-facebook-f"></i>
                         <ul>
@@ -22,7 +21,7 @@
                             <li><a href="index3.html">thông tin cá nhân</a></li>                                                            
                             <li><a href="index7.html">web học tập</a></li>                                                       
                         </ul>
-                        <i class="fas fa-bars"></i>
+                      
                     </div>
                 </div>
             </div>
