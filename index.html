@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
    
 
 <html lang="en">
@@ -18,12 +18,15 @@
             <div class="top">
                 <div class="container">
                     <div class="header-top row">
+                        <img src="https://cdn-icons-png.flaticon.com/512/921/921594.png" alt="" width="150" height="100">
                         <p>Huỳnh Trung Hậu</p>
                       
                       
                         <ul>
-                            <li><a href="index3.html">thông tin cá nhân</a></li>                                                       
-                            <li><a href="index7.html">web học tập</a></li>                                                       
+                            <li><a href="index3.html">Thông tin cá nhân</a></li>                                                       
+                            <li><a href="index7.html">web học tập</a></li>   
+                            <li><a href="">Đăng ký</a></li> 
+                            <li><a href="">Đang học</a></li>                                                   
                         </ul>
                        
                     </div>
@@ -37,20 +40,29 @@
               </div>
          
          
-            <div class="header-text">              
+            <div class="header-text">    
+                <section>
+                   <h1>
+                        <ul>
+                            <li>
+                                
+                            </li>
+                        </ul>
+                   </h1>
+                </section>          
                  
             </div>
            </header>
         <body>
-            <content>        
+            <content>    
+                <section>   
         <div id="box">
         <div class="box">
-      <img src="https://ngayhevang.vn/wp-content/uploads/2021/03/thap-tram-huong-nha-trang-5.jpg" alt="ngayhevang.vn" width="250" height="200">
-    <div class="section-box">
-        <img src="http://thuvienhinhanh.net/wp-content/uploads/2016/05/hinh-anh-dep-ve-nha-trang-thanh-pho-bien.jpg" alt="" width="250" height="150">
-    </div>
+      <img src="https://ngayhevang.vn/wp-content/uploads/2021/03/thap-tram-huong-nha-trang-5.jpg" alt="ngayhevang.vn" width="500" height="400">
+        <img src="http://thuvienhinhanh.net/wp-content/uploads/2016/05/hinh-anh-dep-ve-nha-trang-thanh-pho-bien.jpg" alt="" width="500" height="400">
     </div>
     </div> 
+    </section>
             </content>
             
         </body>
@@ -63,7 +75,7 @@
        <!-- cuối -->
   <div id="footer">
    <div class="box">
-       <div class="logo"> <h1 style="font-size: 15px;">HUỲNH TRUNG HẬU </h1> </div>
+       <img src="https://cdn-icons-png.flaticon.com/512/4471/4471044.png" alt="" width="200" height="150">
    </div>
    <div class="box">
        <h3>NỘI DUNG</h3>
@@ -219,7 +231,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        max-width: 700px;
+        max-width: 500px;
         min-width: 500px;
         text-align: center;
     }
