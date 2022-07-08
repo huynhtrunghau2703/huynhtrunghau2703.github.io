@@ -33,7 +33,7 @@
     </div>
   </nav>
   <div class="img">
-    <img src="http://2.bp.blogspot.com/-g5sYOAQYBOw/VBuNWXRhljI/AAAAAAAAEJ0/liECMPNYA1A/s1600/phong-canh-nhat-ban--14.jpg" alt="" width="1560.5" height="745.6">
+    <img src="http://2.bp.blogspot.com/-g5sYOAQYBOw/VBuNWXRhljI/AAAAAAAAEJ0/liECMPNYA1A/s1600/phong-canh-nhat-ban--14.jpg" alt="" width="1711.2" height="956.6">
   </div>
   <div class="center">
     <div class="title">Thiết Kế  Website</div>
