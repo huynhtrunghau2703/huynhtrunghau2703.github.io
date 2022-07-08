@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
@@ -33,7 +34,7 @@
     </div>
   </nav>
   <div class="img">
-    <img src="http://2.bp.blogspot.com/-g5sYOAQYBOw/VBuNWXRhljI/AAAAAAAAEJ0/liECMPNYA1A/s1600/phong-canh-nhat-ban--14.jpg" alt="" width="1711.2" height="956.6">
+    <img src="https://youimg1.tripcdn.com/target/100d10000000phpxsD5B8.jpg" alt="">
   </div>
   <div class="center">
     <div class="title">Thiết Kế  Website</div>
@@ -158,6 +159,7 @@
 }
 body {
         font-family: 'Signika', sans-serif;
+        overflowY: hidden;
      }
 ::selection{
   color: #000;
@@ -208,19 +210,13 @@ nav .menu{
   color: black;
 }
 .img{
- 
   width: 100%;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
   position: relative;
 }
-.img::before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+.img img {
+    display: block;
+    width: 100%;
 }
 .center{
   position: absolute;
