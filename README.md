@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
@@ -97,7 +98,13 @@
            <div class="row">
               <div class="col-md-6 ">
                  <div class="logo-part">
-                    <img src="https://banner2.cleanpng.com/20180616/tlp/kisspng-computer-icons-personal-5b2561a48c4579.9627555515291764845746.jpg" class="w-50 logo-footer" >
+                    <ul>
+                        <li>
+                            <a href="https://wordpress.com/post/huynhtrunghau2703.wordpress.com/25" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="logo Tigobiz" width="50" height="50"></a>
+                            <a href="https://huynhhau0703349507.wixsite.com/2703" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968762.png" alt="logo Tigobiz" width="50" height="50"></a>
+                            <a href="https://huynhtrunghau2703.blogspot.com/" target="_blank"><img src="https://cdn-icons.flaticon.com/png/512/3291/premium/3291662.png?token=exp=1657770578~hmac=ffb5dc4207624c83f1b89e31e8e477d0" alt="logo Tigobiz" width="50" height="50"></a>
+                        </li>
+                    </ul>
                     <p>thôn phú hậu xã suối hiệp huyện diên khánh tỉnh khánh hòa</p>
                     <p>đang học tại trường cao đẳng kỹ thuật<br>công nghe nha Trang</p>
                  </div>
