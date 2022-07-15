@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>TÍNH ĐIỂM TB HỌC SINH</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1 align='center' style="color:red">bài tập kiểm tra học kỳ 2  </h1>
+ <table border='1' cellpadding="0" cellspacing="30px">
+   <tr class="dong">
+    <td class="cot">toán</td>
+    <td class="cot">
+     <input type='text' value="" name='diem1' id='diem1' placeholder="Nhập điểm toán" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK1'"/>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td class="cot">văn</td>
+    <td class="cot">
+     <input type='text' value="" name='diem2' id='diem2' placeholder="Nhập điểm văn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK2'"/>
+    </td>
+   </tr>
+ <tr class="dong">
+    <td class="cot">hạnh kiểm</td>
+    <td class="cot">
+        <input type="checkbox" name="hobby" value="đạt"/> <label>đạt</label> <br/>
+        <input type="checkbox" name="hobby" value="không đạt thi lại"/> <label>không đạt</label> <br/>
+ 
+        <input type="button" id="btn" value="Xem kết quả"/>
+        <script language="javascript">
+            document.getElementById('btn').onclick = function()
+            {
+                // Khai báo tham số
+                var checkbox = document.getElementsByName('hobby');
+                var result = "";
+                 
+                // Lặp qua từng checkbox để lấy giá trị
+                for (var i = 0; i < checkbox.length; i++){
+                    if (checkbox[i].checked === true){
+                        result += ' [' + checkbox[i].value + ']';
+                    }
+                }
+                 
+                // In ra kết quả
+                alert("hạnh hạnh kiểm là: " + result);
+            };
+        </script>
+    </td>
+ </tr>
+   <tr class="dong">
+    <td class="cot">Điểm TB</td>
+    <td class="cot">
+     <input type='text' value="" name='dtb' id='dtb'/>
+    </td>
+   </tr>
+   <table class="list" id="employeeList">
+   <tr class="dong">
+    <td class="cot">học lực</td>
+    <td class="cot" ><label id='xeploai' style="font-weight: bold;color:rgb(253, 253, 253)"></label>
+     </table>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td colspan='2' class="cot">
+     <input type="button" value='nhấp chuột' name="btnXeploai" id='btnXeploai' onclick="dtb.value=Tinhdiemtb()" />
+    </td>
+   </tr> 
+ </table>
+ <script>
+    function Tinhdiemtb()
+{
+ var x1=document.getElementById('diem1');
+ var x2=document.getElementById('diem2');
+ if(x1.value=='' && x2.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị vào ô nhập liệu');
+  }
+ else if(x1.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị ô nhập liệu thứ 1');
+ }
+ else if(x2.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị ô nhập liệu thứ 2');
+ }
+ else if(isNaN(x1.value)&&isNaN(x2.value))
+ {
+  alert('Kí tự bạn nhập không phải là số');  
+ }
+ else if(isNaN(x1.value) )
+ {
+  alert('Kí tự bạn nhập không phải là số');  
+ }
+  else if(isNaN(x2.value))
+ {
+  alert('Kí tự bạn nhập không phải là số');  
+ }
+ var checkbox = document.getElementsByName("gender");
+ var tb=document.getElementById('dtb');
+ tb=(parseFloat(x1.value)+parseFloat(x2.value)*2)/3;
+ var tbfix=tb.toFixed(2);//Lấy 2 số thập phân sau dấu phẩy và làm tròn
+ var xltb=document.getElementById('xeploai');
+ if(tbfix>=8)
+ {
+  xltb.innerText='lên lớp';
+ }
+ else if(tbfix>=6.5)
+ {
+  xltb.innerText='lên lớp';
+ }
+ else if(tbfix>=5)
+ {
+  xltb.innerText='lên lớp';
+ }
+ else xltb.innerText='thi lại';
+ return tbfix;
+ 
+}
+ </script>
+ <head>
+    <style>
+    body{
+        background-color: #A2D9CE;
+    }
+        table{
+ margin:0 auto;
+ background-color: orange;
+}
+.cot{
+ border: none;
+}
+#btnXeploai{
+ margin-left: 90px;
+}
+    </style>
+ </head>    
